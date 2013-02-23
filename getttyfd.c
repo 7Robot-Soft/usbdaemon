@@ -77,7 +77,7 @@ int getttyfd(const char * device, int s)
 	//
 	if(cfsetispeed(&config, speed) < 0 || cfsetospeed(&config, speed) < 0) {
         perror("cfsetispeed");
-		fprintf(stderr, "%s: failed to set speed\n");
+		fprintf(stderr, "%s: failed to set speed\n", __FUNCTION__);
 		return -1;
 	}
 	//
