@@ -1,7 +1,7 @@
 #ifndef _SETTINGS_H_
 #define _SETTINGS_H_
 
-#define DEFAULT_SPEED   9600
+#define DEFAULT_SPEED   115200
 #define DEFAULT_HOST    "localhost"
 #define MAX_ID          255
 
