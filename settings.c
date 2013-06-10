@@ -13,6 +13,11 @@ static int default_ports[MAX_ID][2] = {
     { 3, 1303 },
     { 4, 1304 },
     { 5, 1305 },
+    { 6, 1306 },
+    { 7, 1307 },
+    { 8, 1308 },
+    { 9, 1309 },
+    { 10, 1310 },
     { 0, 0 }, // Keep this line to mark the end of the array
 };
 
